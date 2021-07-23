@@ -478,7 +478,7 @@ customEventHooks.registerHandler("OnCellLoad", function(eventStatus, pid, cellDe
 end)
 
 customEventHooks.registerValidator("OnObjectActivate", function(eventStatus, pid, cellDescription, objects, players)
-    tes3mp.LogMessage(enumerations.log.INFO, "[startupScripts] OnObjectActivate " - " .. pid .. " - " .. cellDescription)
+    tes3mp.LogMessage(enumerations.log.INFO, "[startupScripts] OnObjectActivate  - " .. pid .. " - " .. cellDescription)
     local name = Players[pid].name:lower()
     local cell = LoadedCells[cellDescription]
     local isValid = eventStatus.validDefaultHandler
