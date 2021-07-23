@@ -77,7 +77,7 @@ config.defaultSpawnPos = {-23894.0, -15079.0, 505}
 config.defaultSpawnRot = {0, 1.2}
 
 -- The cell that players respawn in, unless overridden below by other respawn options
-config.defaultRespawnCell = "Balmora, Temple"
+config.defaultRespawnCell = "Balmora, Tempel"
 
 -- The X, Y and Z position that players respawn in
 config.defaultRespawnPos = {4700.5673828125, 3874.7416992188, 14758.990234375}

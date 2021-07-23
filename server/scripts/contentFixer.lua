@@ -5,7 +5,7 @@ local contentFixer = {}
 
 local refNumDeletionsByCell = {}
 -- Delete Socucius Ergalla
-refNumDeletionsByCell["Seyda Neen, Census and Excise Office"] = { 119636 }
+refNumDeletionsByCell["Seyda Neen, Zensus- und Steueramt"] = { 119636 }
 -- Delete the chargen boat and associated guards and objects
 refNumDeletionsByCell["-1, -9"] = { 268178, 297457, 297459, 297460, 299125 }
 refNumDeletionsByCell["-2, -9"] = { 172848, 172850, 172852, 289104, 297461, 397559 }
@@ -36,7 +36,7 @@ function contentFixer.ValidateCellChange(pid)
 
     local cell = tes3mp.GetCell(pid)
 
-    if cell == "Seyda Neen, Census and Excise Office" then
+    if cell == "Seyda Neen, Zensus- und Steueramt" then
         tes3mp.MessageBox(pid, -1, "Everything from the default character generation is currently " ..
             "broken in multiplayer. You'll have to avoid that area for now.")
         return false
